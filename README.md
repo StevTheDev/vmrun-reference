@@ -64,8 +64,8 @@ These must appear before the command and any command parameters.
 | connectNamedDevice | Path to vmx file, device name | Connect the named device in the Guest OS |
 | disconnectNamedDevice | Path to vmx file, device name | Disconnect the named device in the Guest OS |
 | captureScreen | Path to vmx file, Path on host | Capture the screen of the VM to a local file |
-| writeVariable | Path to vmx file, `runtimeConfig| guestEnv| guestVar`, variable name, variable value | Write a variable in the VM state |
-| readVariable | Path to vmx file,`runtimeConfig| guestEnv| guestVar`, variable name | Read a variable in the VM state |
+| writeVariable | Path to vmx file, `runtimeConfig` or `guestEnv` or `guestVar`, variable name, variable value | Write a variable in the VM state |
+| readVariable | Path to vmx file, `runtimeConfig` or `guestEnv` or `guestVar`, variable name | Read a variable in the VM state |
 | getGuestIPAddress | Path to vmx file, `-wait` | Gets the IP address of the guest |
 
 ### General Commands
@@ -110,4 +110,3 @@ Deleting a snapshot with Workstation on a Windows host
 Enabling Shared Folders with Workstation on a Windows host
 
     vmrun -T ws enableSharedFolders "c:\my VMs\myVM.vmx"
-    
