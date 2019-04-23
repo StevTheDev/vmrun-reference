@@ -93,7 +93,7 @@ Starting a virtual machine with Workstation on a Windows host
 
 Running a program in a virtual machine with Workstation on a Windows host with Windows guest:
 
-    vmrun -T ws -gu guestUser -gp guestPassword runProgramInGuest "c:\my VMs\myVM.vmx" "c:\Program Files\myProgram.exe" ```
+    vmrun -T ws -gu guestUser -gp guestPassword runProgramInGuest "c:\my VMs\myVM.vmx" "c:\Program Files\myProgram.exe"
 
 Creating a snapshot of a virtual machine with Workstation on a Windows host
 
